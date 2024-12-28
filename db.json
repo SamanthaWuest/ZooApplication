@@ -1,0 +1,28 @@
+{
+  "games": [
+    {
+      "id": 1,
+      "category": "online",
+      "image": "board1.jpg",
+      "name": "Hiker",
+      "price": "94.95",
+      "description": "This rugged board will get you up the mountain safely."
+    },
+    {
+      "id": 2,
+      "category": "single-player",
+      "image": "board2.jpg",
+      "name": "Climber",
+      "price": "78.99",
+      "description": "Sure-footed traction in slippery conditions."
+    },
+    {
+      "id": 3,
+      "category": "co-up",
+      "image": "board3.jpg",
+      "name": "Explorer",
+      "price": "145.95",
+      "description": "Look stylish while stomping in the mud."
+    }
+  ]
+}
