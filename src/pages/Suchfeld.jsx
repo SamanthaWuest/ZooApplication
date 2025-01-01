@@ -1,12 +1,14 @@
 import React from "react";
-import Header from "../Header";
+import Header from "../Header/Header";
 import { Link } from "react-router-dom";
+import HeaderSearch from "../Header/HeadSearch";
 
 
 const Suchfeld = () => {
     return (
         <>
     <h1>Suchfeld</h1>
+    <HeaderSearch />
     <main>
         <Link to="/Tickets">
         <button className="button">Tickets</button>

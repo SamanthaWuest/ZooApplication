@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import HeaderAudioguides from "../HeadAudio";
+import HeaderAudioguides from "../Header/HeadAudio";
 
 
 
@@ -12,14 +12,7 @@ const Audioguides = () => {
 
 
     <main>
-        <button className="button01">Benutzername</button> <bl />
-        <button className="button01">Passwort</button>
-
-
-
-
-
-
+    
         <Link to="/Tickets">
         <button className="button">Tickets</button>
         </Link>

@@ -4,10 +4,11 @@ import React, { useState } from "react";
 import "./App.css";
 import Home from "./pages/Home";
 import Layout from "./Layout";
-import Audioguides from "./pages/Audioguides.jsx";
 import Tickets from "./pages/Tickets.jsx";
 import Lageplan from "./pages/Lageplan.jsx";
 import Suchfeld from "./pages/Suchfeld.jsx";
+import Login from "./pages/Login.jsx";
+import Audioguides from "./pages/Audioguides.jsx";
 
 
 export default function App() {
@@ -16,10 +17,11 @@ export default function App() {
         <Routes>
           <Route path="/" element={<Layout />}>
             <Route index element={<Home />} />
-            <Route path="audioguides" element={<Audioguides />} />  
+            <Route path="login" element={<Login />} />  
             <Route path="tickets" element={<Tickets />} />
             <Route path="lageplan" element={<Lageplan />} />
             <Route path="suchfeld" element={<Suchfeld />} />
+            <Route path="audioguides" element={<Audioguides />} />
           </Route>
         </Routes>
       </BrowserRouter>
