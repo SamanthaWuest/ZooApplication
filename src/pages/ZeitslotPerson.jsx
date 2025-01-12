@@ -3,12 +3,12 @@ import Header from "../Header/Header";
 import { Link } from "react-router-dom";
 
 
-const Home = () => {
+const ZeitslotPerson = () => {
     return (
         <>
     <Header />
     <main>
-        <h1>Homepage</h1>
+        <h1>Zeitslot Person</h1>
         <Link to="/Tickets">
         <button className="button">Tickets</button>
         </Link>
@@ -27,4 +27,4 @@ const Home = () => {
     )
 };
 
-export default Home;
+export default ZeitslotPerson;

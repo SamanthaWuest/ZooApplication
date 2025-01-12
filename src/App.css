@@ -84,6 +84,7 @@ a {
 
 h1 {
   font-size: 36px;
+  color: #6b4b2d;
 }
 
 h3 {
@@ -193,33 +194,66 @@ form > div {
   background-color: #6b4b2d;
   border: solid;
   color: white;
-  padding: 12px 28px;
+  padding: 18px 34px;
   text-align: center;
   display: block;
+  font-size: 20px;
+  border-radius: 8px;
+}
+
+.audioguides {
+  background-color: #6b4b2d;
+  border: solid;
+  color: white;
+  padding: 12px 28px;
+  text-align: center;
+  display: inline-block;
   font-size: 16px;
   border-radius: 8px;
+}
+
+.audioguides1 {
+  background-color: #6b4b2d;
+  border: solid;
+  color: white;
+  padding: 12px 28px;
+  text-align: center;
+  font-size: 16px;
+  border-radius: 8px;
+  position: absolute;
 }
 
 .button01 {
   background-color: #6b4b2d;
   border: solid;
   color: white;
-  padding: 12px 28px;
+  padding: 18px 34px;
   text-align: center;
   display: block;
-  font-size: 16px;
+  font-size: 20px;
   border-radius: 8px;
 }
 
+.Inputfield {
+  padding: 20px 36px;
+  font-size: 20px;
+}
+
 .Login1 {
-  background-color: brown;
+  background-color: #6b4b2d;
   border: solid;
-  color: black;
-  padding: 12px 28px;
+  color: white;
+  padding: 20px 36px;
   text-align: center;
   display: block;
-  font-size: 12px;
+  font-size: 20px;
   border-radius: 8px;
+}
+
+.confirmation {
+  display: block;
+  padding: auto;
+  font-size: 20px;
 }
 
 /* HEADER AUDIOGUIDE CSS */
@@ -299,3 +333,42 @@ headerSearch img {
   z-index: -1;
 }
 
+/* Header Confirmation */
+
+headerConf {
+  display: flex;
+  padding-left: 20px;
+}
+
+headerConf img {
+  background-image: url('../public/images/owl.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  width: 100%;
+  position: absolute;
+   top: 0;
+   left: 0;
+   object-fit: cover;
+   z-index: -1;
+}
+
+/* Header Tickets */
+
+headerTickets {
+  display: flex;
+  padding-left: 20px;
+}
+
+headerTickets img {
+  background-image: url('../public/images/zebra.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  object-fit: cover;
+  z-index: -1;
+}

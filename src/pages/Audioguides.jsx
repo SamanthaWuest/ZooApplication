@@ -1,30 +1,39 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import HeaderAudioguides from "../Header/HeadAudio";
-
+import { DayPilotCalendar } from "@daypilot/daypilot-lite-react";
+import Calendar from "./Calendar";
 
 
 const Audioguides = () => {
+
     return (
         <>    
     <HeaderAudioguides />
     <h1>Audioguides</h1>
-
-
-    <main>
-    
-        <Link to="/Tickets">
-        <button className="button">Tickets</button>
+    <Link to="/Tickets">
+        <button className="audioguides">Tickets</button>
         </Link>
         <Link to="/">
-        <button className="button">Home</button>
+        <button className="audioguides">Home</button>
         </Link>
-        <Link to="/Lageplan">
-        <button className="button">Lageplan</button>
-        </Link>
+        <a href="/Zooplan.pdf" target="-blank">
+        <button className="audioguides">Lageplan</button>
+        </a>
         <Link to="/Suchfeld">
-        <button className="button">Suchfeld</button>
+        <button className="audioguides">Suchfeld</button>
         </Link>
+
+   
+
+    <main>
+        
+    <div>
+    <Calendar />
+    </div>
+    <Link to={"/Bestätigung"}>
+    <button className="audioguides1">Weiter zur Bestätigung</button>
+    </Link>
     </main>
 </>
     )

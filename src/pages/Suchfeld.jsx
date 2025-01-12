@@ -7,18 +7,18 @@ import HeaderSearch from "../Header/HeadSearch";
 const Suchfeld = () => {
     return (
         <>
-    <h1>Suchfeld</h1>
     <HeaderSearch />
+    <h1>Suchfeld</h1>
     <main>
         <Link to="/Tickets">
         <button className="button">Tickets</button>
         </Link>
-        <Link to="/Audioguides">
+        <Link to="/Login">
         <button className="button">Audioguides</button>
         </Link>
-        <Link to="/Lageplan">
+        <a href="/Zooplan.pdf" target="-blank">
         <button className="button">Lageplan</button>
-        </Link>
+        </a>
         <Link to="/">
         <button className="button">Home</button>
         </Link>
