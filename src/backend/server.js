@@ -10,6 +10,7 @@ const key = process.env.ACCESS_TOKEN_SECRET;
 const cors = require("cors");
 const { useState } = require("react");
 let events = [];
+let arrayPosition = 0;
 
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use(cookieParser());
@@ -127,8 +128,9 @@ app.post("/event", authenticateToken, (req, res) => {
 
 app.get("/confirmation", authenticateToken, async (req, res) => {
   let encodedToken = jwt.decode(authenticateToken, key);
-  let email = encodedToken.email;
-  let event = [];
+  let email = req.user.email;
+  let event = events[0];
+  console.log(event);
   let confirmation = { email, event };
-  res.status(200).send(confirmation);
+  res.status(200).json(confirmation);
 });

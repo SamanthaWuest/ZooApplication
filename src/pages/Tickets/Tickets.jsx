@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import HeaderTickets from "../Header/HeadTickets";
+import HeaderTickets from "../../Header/HeadTickets";
 
 
 const Tickets = () => {
@@ -21,6 +21,28 @@ const Tickets = () => {
         <Link to="/Suchfeld">
         <button className="button">Suchfeld</button>
         </Link>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        
     </main>
 
         

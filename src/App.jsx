@@ -4,7 +4,7 @@ import React, { useState } from "react";
 import "./App.css";
 import Home from "./pages/Home";
 import Layout from "./Layout";
-import Tickets from "./pages/Tickets.jsx";
+import Tickets from "./pages/Tickets/Tickets.jsx";
 import Suchfeld from "./pages/Suchfeld.jsx";
 import Login from "./pages/Login.jsx";
 import Audioguides from "./pages/Audioguides.jsx";
